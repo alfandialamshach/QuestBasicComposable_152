@@ -29,7 +29,7 @@ fun DataDiri(modifier: Modifier = Modifier) {
             .padding(top = 50.dp)
     )
     {
-
+        Text("Login", fontSize = 50.sp)
         Image(
             painter = painterResource(id = R.drawable.img_1),
             contentDescription = "",
