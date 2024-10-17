@@ -34,7 +34,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             Project2Theme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    BasicColumn(modifier = Modifier.padding(innerPadding))
+                    DataDiri(modifier = Modifier.padding(innerPadding))
                 }
             }
         }
