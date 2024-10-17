@@ -49,7 +49,7 @@ fun DataDiri(modifier: Modifier = Modifier) {
         Image(
             painter = painterResource(id = R.drawable.gunung),
             contentDescription = "",
-            modifier = Modifier.clip(RectangleShape)
+            modifier = Modifier.clip(RectangleShape).size(400.dp)
 
         )
     }
