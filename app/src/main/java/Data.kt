@@ -31,6 +31,7 @@ fun DataDiri(modifier: Modifier = Modifier) {
     {
         Text("Login", fontSize = 50.sp)
         Spacer(modifier = Modifier.padding(5.dp))
+        Text("Ini adalah halaman login", fontSize = 30.sp)
         Image(
             painter = painterResource(id = R.drawable.img_1),
             contentDescription = "",
