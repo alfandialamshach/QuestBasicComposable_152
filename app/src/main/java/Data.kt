@@ -11,6 +11,7 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.material3.Text
+import androidx.compose.material3.lightColorScheme
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
@@ -18,6 +19,7 @@ import androidx.compose.ui.draw.clip
 import androidx.compose.ui.geometry.Size
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.RectangleShape
+import androidx.compose.ui.res.colorResource
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
@@ -44,11 +46,12 @@ fun DataDiri(modifier: Modifier = Modifier) {
             modifier = Modifier.clip(CircleShape).size(200.dp)
         )
         Spacer(modifier = Modifier.padding(5.dp))
-        Text("Nama", fontSize = 80.sp)
+        Text("Nama", fontSize = 60.sp)
         Spacer(modifier = Modifier.padding(5.dp))
-        Text("Alfandi Alamshach", fontSize = 30.sp)
+        Text("Alfandi Alamshach", fontSize = 40.sp)
         Spacer(modifier = Modifier.padding(5.dp))
-        Text("20220140152", fontSize = 50.sp)
+        Text("20220140152", fontSize = 50.sp, color = Color.Red)
+
         Image(
             painter = painterResource(id = R.drawable.gunung),
             contentDescription = "",
