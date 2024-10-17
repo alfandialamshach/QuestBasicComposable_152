@@ -43,11 +43,11 @@ fun DataDiri(modifier: Modifier = Modifier) {
             contentDescription = "",
             modifier = Modifier.clip(CircleShape).size(200.dp)
         )
-        Spacer(modifier = Modifier.padding(10.dp))
+        Spacer(modifier = Modifier.padding(5.dp))
         Text("Nama", fontSize = 80.sp)
-        Spacer(modifier = Modifier.padding(10.dp))
+        Spacer(modifier = Modifier.padding(5.dp))
         Text("Alfandi Alamshach", fontSize = 30.sp)
-        Spacer(modifier = Modifier.padding(10.dp))
+        Spacer(modifier = Modifier.padding(5.dp))
         Text("20220140152", fontSize = 50.sp)
         Image(
             painter = painterResource(id = R.drawable.gunung),
