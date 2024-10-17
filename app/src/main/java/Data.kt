@@ -38,6 +38,7 @@ fun DataDiri(modifier: Modifier = Modifier) {
         Text("Nama", fontSize = 80.sp)
         Spacer(modifier = Modifier.padding(10.dp))
         Text("Alfandi Alamshach", fontSize = 30.sp)
+        Spacer(modifier = Modifier.padding(10.dp))
     }
 
 }
